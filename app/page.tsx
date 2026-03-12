@@ -20,6 +20,7 @@ const initialRovers: Rover[] = [
 
 function directionToRotation(direction: Direction) {
   switch (direction) {
+    
     case "up":
       return 0;
     case "right":
